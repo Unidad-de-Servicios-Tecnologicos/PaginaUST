@@ -1,75 +1,8 @@
 // import React from "react";
-
-// type Props = {}
+import Footer from "../../components/Footer";
+import { clientes, recorridos, areas, programas } from "./items";
 
 const Nosotros = () => {
-  const clientes = [
-    {
-      title: "Aprendiz",
-      imgBase: "/src/assets/estrella.svg",
-      img: "/src/assets/aprendiz.svg",
-      text: "Principal aliado en los desarrollos de los servicios ofertados en el portafolio de la UST.",
-    },
-    {
-      title: "Instructores",
-      imgBase: "/src/assets/estrella.svg",
-      img: "/src/assets/instructores.svg",
-      text: "Actualización e intercambio de conocimientos.",
-    },
-    {
-      title: "Otros Centros de Formación",
-      imgBase: "/src/assets/estrella.svg",
-      img: "/src/assets/centroFormacion.svg",
-      text: "Prestación de servicios complementarios y ejecución de proyectos complejos.",
-    },
-    {
-      title: "Sector Empresarial",
-      imgBase: "/src/assets/estrella.svg",
-      img: "/src/assets/empresarial.svg",
-      text: "Sofisticación de productos y servicios, optimización y digitalización de procesos.",
-    },
-    {
-      title: "Clientes Personas Naturales",
-      imgBase: "/src/assets/estrella.svg",
-      img: "/src/assets/personasNatu.svg",
-      text: "Fortalecimiento de imagen corporativa, digitalización de procesos, Apalancamiento de servicios.",
-    },
-  ];
-
-  const secciones = [
-    {
-      imgSrc: "/src/assets/Icono_Contenidos.svg",
-      title: "Contenidos Digitales",
-    },
-    {
-      imgSrc: "/src/assets/Icono_Industrias4.svg",
-      title: "Industrias 4.0",
-    },
-    {
-      imgSrc: "/src/assets/Icono_Fabrica.svg",
-      title: "Fabrica de Software",
-    },
-  ];
-
-  const recorridos = [
-    {
-      count: 140,
-      title: "Servicios",
-    },
-    {
-      count: 77,
-      title: "Aprendices",
-    },
-    {
-      count: 2500,
-      title: "Aprendices Transferencias",
-    },
-    {
-      count: 7,
-      title: "Programas de Formación",
-    },
-  ];
-
   return (
     <>
       <div
@@ -207,7 +140,7 @@ const Nosotros = () => {
                     bg-[#025E73]
                     pb-[40px]"
       >
-        {secciones.map((section, index) => (
+        {areas.map((area, index) => (
           <div
             key={index}
             className="flex 
@@ -221,7 +154,7 @@ const Nosotros = () => {
                          mb-[40px]"
             >
               <img
-                src={section.imgSrc}
+                src={area.imgSrc}
                 alt="ust"
                 className="h-[330px] 
                           w-[330px]"
@@ -232,7 +165,7 @@ const Nosotros = () => {
                        text-[#FFFFFF]
                        font-bold"
             >
-              {section.title}
+              {area.title}
             </h1>
           </div>
         ))}
@@ -306,6 +239,131 @@ const Nosotros = () => {
           ))}
         </div>
       </div>
+      <h1
+        className="text-[48px]
+                  text-[#FFFFFF]
+                  font-bold
+                  text-center
+                  bg-[#025E73]
+                  py-8
+                  "
+      >
+        Compromiso con la formación
+      </h1>
+      <div
+        className="flex
+                  flex-row"
+      >
+        <div
+          className="w-[50%]
+                    bg-[#000000]
+                    py-2"
+        >
+          <div
+            className="flex
+                        flex-col"
+          >
+            <img
+              className="p-8
+                        h-[470px]"
+              src="/src/assets/practicasLaborales.png"
+              alt="practica"
+            />
+            <div
+              className="flex
+                      flex-row
+                      justify-between
+                      px-8
+                      pb-8
+                      pt-4"
+            >
+              <img
+                className="h-[315px]
+                        w-[420px]
+                        pr-2"
+                src="/src/assets/transferencia1.png"
+                alt="transferencia1"
+              />
+              <img
+                className="h-[315px]
+                        w-[345px]
+                           "
+                src="/src/assets/transferencia2.jpg"
+                alt="transferencia2"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="w-[50%]
+                    bg-[#CBCBCB]
+                    flex
+                    flex-col
+                    justify-between"
+        >
+          <div
+            className="flex
+                        flex-col
+                        pl-12
+                        pt-12
+                        pr-24"
+          >
+            <h1
+              className="text-[32px]
+                          text-start
+                          pb-8
+                          font-bold
+                          text-[#025E73]"
+            >
+              Prácticas laborales Aprendices de los programas de:
+            </h1>
+            {programas.map((programa, index) => (
+              <li
+                key={index}
+                className="text-[22px]
+                          pl-4
+                          text-[#000000]"
+              >
+                {programa.nombre}
+              </li>
+            ))}
+          </div>
+          <div
+            className="flex
+                        flex-col
+                        pl-12
+                        pb-[170px]
+                        pr-24"
+          >
+            <h1
+              className="text-[32px]
+                          text-start
+                          pb-4
+                          font-bold
+                          text-[#025E73]"
+            >
+              Transferencias de conocimiento y talleres:
+            </h1>
+            <p
+              className="text-[22px]
+                        text-[#000000]
+                        text-justify"
+            >
+              Se facilita el espacio y equipos para la formación y se imparten
+              transferencias de conocimiento y talleres para complementar el
+              proceso de aprendizaje e incentivar la investigación.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#025E73]
+                    py-8">
+        <h1 className="text-[#FFFFFF]
+                      text-center
+                      text-[48px]
+                      font-bold">Nuestro Equipo</h1>
+      </div>
+      <Footer />
     </>
   );
 };
