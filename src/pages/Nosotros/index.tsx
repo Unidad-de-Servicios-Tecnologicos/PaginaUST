@@ -60,15 +60,21 @@ const Nosotros = () => {
           className="text-[48px]
                     text-[#FFFFFF]
                     font-bold
-                    pb-8
+                    -pb-8
                     "
         >
           Unidad de Servicios Tecnológicos
         </h1>
+        <hr
+          className="w-[800px] 
+                      border-t-4 
+                      border-[#00AC00]"
+        />
         <p
           className="text-[22px]
                     text-[#FFFFFF]
-                    px-[500px]"
+                    px-[500px]
+                    pt-12"
         >
           La unidad de Servicios Tecnologicos del Centro de Servicios y Gestión
           Empresarial, es un espacio dedicado a la prestación de servicios
@@ -356,12 +362,18 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#025E73]
-                    py-8">
-        <h1 className="text-[#FFFFFF]
+      <div
+        className="bg-[#025E73]
+                    py-8"
+      >
+        <h1
+          className="text-[#FFFFFF]
                       text-center
                       text-[48px]
-                      font-bold">Nuestro Equipo</h1>
+                      font-bold"
+        >
+          Nuestro Equipo
+        </h1>
       </div>
       <Footer />
     </>

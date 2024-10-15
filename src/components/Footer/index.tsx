@@ -19,7 +19,7 @@ const Footer = () => {
           src="/src/assets/Icono_Servicios_Tecnologicos.svg"
           alt="logo"
         />
-        <div>
+        <div className="pr-24">
           <p className="text-[22px]
                       text-[#FFFFFF]">
             Lorem ipsum dolor sit amet consectetur. <br />

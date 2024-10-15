@@ -61,17 +61,23 @@ const Home = () => {
             className="text-[48px] 
                         text-white
                         font-bold
-                        pb-8
+                        -pb-8
                         "
           >
             Sobre Nosotros
           </h1>
+          <hr
+            className="w-[365px] 
+                      border-t-4 
+                      border-[#00AC00]"
+          />
           <p
             className="text-justify-start
                         text-white
                         text-[22px]
                         pr-[180px]
-                        pb-24"
+                        pb-24
+                        pt-12"
           >
             La unidad de Servicios Tecnologicos del Centro de Servicios y
             Gestión Empresarial, es un espacio dedicado a la prestación de
