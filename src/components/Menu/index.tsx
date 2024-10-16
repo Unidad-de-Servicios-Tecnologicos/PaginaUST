@@ -76,14 +76,24 @@ const Menu = ({
           {links.map((link, index) => (
             <li
               key={index}
-              className="text-slate-300
+              className="group 
+                        mb-4
+                        text-slate-300
                         hover:text-zinc-100
-                        cursor-pointer
-                        mb-4"
+                        cursor-pointer"
             >
               <Link to={link.url} onClick={() => setIsMenuOpen(false)}>
                 {link.name}
               </Link>
+              <hr
+                className="w-auto
+                           border-t-4 
+                           border-[#00AC00] 
+                           opacity-0 
+                           group-hover:opacity-100 
+                           transition-opacity 
+                           duration-300"
+              />
             </li>
           ))}
         </ul>

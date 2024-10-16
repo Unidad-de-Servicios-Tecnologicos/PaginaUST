@@ -66,6 +66,39 @@ const fabrica = () => {
       >
         Desarrollos
       </h1>
+      <div
+        className="flex
+                    justify-between
+                    "
+      >
+        <div
+          className="flex
+                      flex-col"
+        >
+          <img src="" alt="" />
+          <h1 className="text-[32px]">Desarrollo 1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+        </div>
+        <div
+          className="flex
+                      flex-col"
+        >
+          <img src="" alt="" />
+          <div className="bg-[#00AC00]">
+          <h1 className="text-[32px]
+                        text-center">Desarrollo 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+          </div>
+        </div>
+        <div
+          className="flex
+                      flex-col"
+        >
+          <img src="" alt="" />
+          <h1 className="text-[32px]">Desarrollo 3</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+        </div>
+      </div>
       <Footer />
     </>
   );
