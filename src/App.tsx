@@ -46,6 +46,7 @@ const App = () => {
           <Route path="/portafolio/contenidos" element={<PortaContenidos/>}/>
           <Route path="/portafolio/industrias" element={<PortaIndustrias/>}/>
           <Route path="/contacto" element={<Contatanos/>}/>
+          <Route path="*" element={<h1>Not found</h1>}/>
         </Routes>
       </Layout>
     </Router>

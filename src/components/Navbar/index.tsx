@@ -51,7 +51,14 @@ const Navbar = ({ links }: Props) => {
           key={index}
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
-          className="flex flex-col items-center text-[22px] font-medium font-sans text-slate-300 hover:text-zinc-100"
+          className="flex 
+                    flex-col 
+                    items-center 
+                    text-[22px] 
+                    font-medium 
+                    font-sans 
+                    text-slate-300 
+                    hover:text-zinc-100"
         >
           {/* Condicional para mostrar la línea verde debajo del enlace cuando esté en hover */}
           {link.isDropdown ? (
