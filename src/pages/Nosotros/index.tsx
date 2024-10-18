@@ -1,6 +1,7 @@
 // import React from "react";
 import Footer from "../../components/Footer";
-import { clientes, recorridos, areas, programas } from "./items";
+import Areas from "../../components/ListAreas";
+import { clientes, recorridos, programas } from "./items";
 
 const Nosotros = () => {
   return (
@@ -139,43 +140,7 @@ const Nosotros = () => {
           2020 - 2023
         </h1>
       </div>
-      <div
-        className="flex
-                    flex-row
-                    justify-between
-                    bg-[#025E73]
-                    pb-[40px]"
-      >
-        {areas.map((area, index) => (
-          <div
-            key={index}
-            className="flex 
-                      flex-col 
-                      items-center"
-          >
-            <div
-              className="bg-[#868686]
-                         py-[50px]
-                         px-[110px]
-                         mb-[40px]"
-            >
-              <img
-                src={area.imgSrc}
-                alt="ust"
-                className="h-[330px] 
-                          w-[330px]"
-              />
-            </div>
-            <h1
-              className="text-[30px]
-                       text-[#FFFFFF]
-                       font-bold"
-            >
-              {area.title}
-            </h1>
-          </div>
-        ))}
-      </div>
+      <Areas/>
       <div
         className="flex
                     flex-col

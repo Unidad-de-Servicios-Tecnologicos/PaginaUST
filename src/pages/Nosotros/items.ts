@@ -37,14 +37,17 @@ export const areas = [
   {
     imgSrc: "/src/assets/Icono_Contenidos.svg",
     title: "Contenidos Digitales",
+    concept: "Aqui se visualizara toda una pequeña descripción sobre nuestro enfoque desde el area de CONTENIDOS DIGITALES."
   },
   {
     imgSrc: "/src/assets/Icono_Industrias4.svg",
     title: "Industrias 4.0",
+    concept: "Aqui se visualizara toda una pequeña descripción sobre nuestro enfoque desde el area de INDUSTRIAS 4.0."
   },
   {
     imgSrc: "/src/assets/Icono_Fabrica.svg",
     title: "Fabrica de Software",
+    concept: "Aqui se visualizara toda una pequeña descripción sobre nuestro enfoque desde la FÁBRICA DE SOFTWARE."
   },
 ];
 

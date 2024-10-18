@@ -9,6 +9,7 @@ const fabrica = () => {
       <div
         className="flex
                   flex-row
+                  justify-center
                   "
       >
         <div
@@ -21,7 +22,7 @@ const fabrica = () => {
                       pb-12"
         >
           <img
-            className="h-[300px]"
+            className=""
             src="/src/assets/Icono_Fabrica.svg"
             alt="areaFabrica"
           />
@@ -38,25 +39,25 @@ const fabrica = () => {
         </div>
         <div
           className="relative
-                    w-[53%]
-                    flex
-                    items-center"
+            w-[53%]
+            flex
+            items-center
+            overflow-x-hidden"
         >
           <img
             src="/src/assets/fondoAreas.svg"
             alt="fondo"
-            className="w-[530px] 
-                      h-auto object-cover
-                      pl-[15px]
-                      ml-[120px]"
+            className="w-[520px] 
+              h-auto object-cover
+              pl-[150px]
+              "
           />
           <p
             className="absolute
-                      text-justify
-                      text-[22px]
-                      pl-[80px]
-                      pr-[200px]
-                      "
+              text-justify
+              text-[22px]
+              pl-[70px] 
+              pr-[150px]"
           >
             Desarrollar soluciones de software eficientes, innovadoras y
             personalizadas que satisfagan las necesidades específicas de
@@ -78,9 +79,8 @@ const fabrica = () => {
       </h1>
       <div
         className="flex
-              justify-center
-              -ml-[8px]
-              -mr-[8px]
+              justify-between
+              mx-auto
               "
       >
         <div
@@ -116,7 +116,7 @@ const fabrica = () => {
         <div
           className="flex
                 flex-col
-                w-[33%]"
+                w-[34%]"
         >
           <img src="" alt="" />
           <div
@@ -275,7 +275,56 @@ const fabrica = () => {
         className="w-full
                   h-[750px]"
       />
-
+      <div
+        className="flex
+                    flex-row
+                    justify-center
+                    w-full
+                    "
+      >
+        <div
+          className="w-[16.75%]
+                      h-[100px]
+                      bg-[#025E73]"
+        >
+          
+        </div>
+        <div
+          className="w-[16.75%]
+                      h-[100px]
+                      bg-[rgba(2,94,115,0.90)]"
+        >
+          
+        </div>
+        <div
+          className="w-[16.75%]
+                      h-[100px]
+                      bg-[#025E73]"
+        >
+          
+        </div>
+        <div
+          className="w-[16.75%]
+                      h-[100px]
+                      bg-[rgba(2,94,115,0.90)]"
+        >
+        
+        </div>
+        <div
+          className="w-[16.75%]
+                      h-[100px]
+                      bg-[#025E73]"
+        >
+          
+        </div>
+        <div
+          className="w-[16.75%]
+                      h-[100px]
+                      bg-[rgba(2,94,115,0.90)]"
+        >
+          
+        </div>
+      </div>
       <Footer />
     </>
   );
