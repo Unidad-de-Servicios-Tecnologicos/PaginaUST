@@ -77,6 +77,7 @@ const Contacto = () => {
                     message: "El correo electrónico no es válido.",
                   },
                 },
+                placeholder: "Example123@example....",
               },
             ]}
           />

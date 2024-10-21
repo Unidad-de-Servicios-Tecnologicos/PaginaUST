@@ -6,6 +6,7 @@ type FormField = {
   label: string;
   type: string;
   validation?: object;
+  placeholder?: string;
 };
 
 type Props = {
@@ -66,6 +67,7 @@ const Form = ({ fields, onSubmit, title, buttonText }: Props) => {
                     "
             type={field.type}
             id={field.name}
+            placeholder={field.placeholder}
             {...register(field.name, field.validation)}
           />
 
