@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 
 // type Props = {}
 
-const fabrica = () => {
+const Fabrica = () => {
   return (
     <>
       <div
@@ -22,7 +22,7 @@ const fabrica = () => {
                       pb-12"
         >
           <img
-            className=""
+            className="h-[350px]"
             src="/src/assets/Icono_Fabrica.svg"
             alt="areaFabrica"
           />
@@ -284,42 +284,42 @@ const fabrica = () => {
       >
         <div
           className="w-[16.75%]
-                      h-[100px]
+                      h-[200px]
                       bg-[#025E73]"
         >
           
         </div>
         <div
           className="w-[16.75%]
-                      h-[100px]
+                      h-[200px]
                       bg-[rgba(2,94,115,0.90)]"
         >
           
         </div>
         <div
           className="w-[16.75%]
-                      h-[100px]
+                      h-[200px]
                       bg-[#025E73]"
         >
           
         </div>
         <div
           className="w-[16.75%]
-                      h-[100px]
+                      h-[200px]
                       bg-[rgba(2,94,115,0.90)]"
         >
         
         </div>
         <div
           className="w-[16.75%]
-                      h-[100px]
+                      h-[200px]
                       bg-[#025E73]"
         >
           
         </div>
         <div
           className="w-[16.75%]
-                      h-[100px]
+                      h-[200px]
                       bg-[rgba(2,94,115,0.90)]"
         >
           
@@ -330,4 +330,4 @@ const fabrica = () => {
   );
 };
 
-export default fabrica;
+export default Fabrica;

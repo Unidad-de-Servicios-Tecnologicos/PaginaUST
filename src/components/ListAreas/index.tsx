@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { areas } from "../../pages/Nosotros/items"; // Asegúrate de ajustar la ruta
+import { areas } from "../../pages/Nosotros/items";
 
 const Areas = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -7,9 +7,11 @@ const Areas = () => {
   return (
     <div
       className="flex 
-                justify-between
+                justify-center 
+                items-center
+                w-full
                 bg-[#025E73]
-                "
+                gap-x-6" // Espacio entre los elementos
     >
       {areas.map((area, index) => (
         <div
@@ -18,45 +20,43 @@ const Areas = () => {
                     flex-col 
                     items-center
                     relative"
-          onMouseEnter={() => setHoveredIndex(index)}
-          onMouseLeave={() => setHoveredIndex(null)}
         >
-          {/* Ocultar imagen al pasar el mouse */}
-          {hoveredIndex === index ? (
-            <div
-              className="flex
-                        flex-col
-                        bg-[#868686]
-                        border 
-                        border-gray-300 
-                        drop-shadow-2xl 
-                        px-12
-                        pt-[125px]
-                        rounded-b
-                        w-[546px]
-                        h-[545px]
-                        "
-            >
-              <h1
-                className="text-[32px]
+          {/* Imagen con eventos hover */}
+          <div
+            onMouseEnter={() => setHoveredIndex(index)}
+            onMouseLeave={() => setHoveredIndex(null)}
+          >
+            {hoveredIndex === index ? (
+              <div
+                className="flex
+                          
+                          flex-col
+                          bg-[#868686]
+                          drop-shadow-3xl 
+                          px-12
+                          pt-[125px]
+                          w-[546px]
+                          h-[545px]"
+              >
+                <h1
+                  className="text-[32px]
                             text-[#FFFFFF]
                             font-bold
                             text-center
                             pb-4
                             pt-12"
-              >
-                {area.title}
-              </h1>
-              <p
-                className="text-[22px]
+                >
+                  {area.title}
+                </h1>
+                <p
+                  className="text-[22px]
                         text-justify 
                         text-[#333]"
-              >
-                {area.concept}
-              </p>
-            </div>
-          ) : (
-            <div>
+                >
+                  {area.concept}
+                </p>
+              </div>
+            ) : (
               <img
                 src={area.imgSrc}
                 alt={area.title}
@@ -64,21 +64,22 @@ const Areas = () => {
                         w-[546px] 
                         h-[545px]
                         py-4
-                        px-12
-                        "
+                        px-12"
               />
-              <h1
-                className="text-center
+            )}
+          </div>
+
+          {/* Título siempre visible */}
+          <h1
+            className="text-center
                         text-[32px]
                         text-[#FFFFFF]
                         font-bold
-                        pt-4
-                        pb-4"
-              >
-                {area.title}
-              </h1>
-            </div>
-          )}
+                        pt-12
+                        pb-12"
+          >
+            {area.title}
+          </h1>
         </div>
       ))}
     </div>
