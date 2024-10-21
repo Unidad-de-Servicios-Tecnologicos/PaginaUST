@@ -29,14 +29,13 @@ const Areas = () => {
             {hoveredIndex === index ? (
               <div
                 className="flex
-                          
                           flex-col
                           bg-[#868686]
                           drop-shadow-3xl 
                           px-12
                           pt-[125px]
-                          w-[546px]
-                          h-[545px]"
+                          w-[538px]
+                          h-[538px]"
               >
                 <h1
                   className="text-[32px]
@@ -61,8 +60,8 @@ const Areas = () => {
                 src={area.imgSrc}
                 alt={area.title}
                 className="bg-[#868686] 
-                        w-[546px] 
-                        h-[545px]
+                        w-[538px] 
+                        h-[538px]
                         py-4
                         px-12"
               />
