@@ -33,7 +33,8 @@ const Industrias = () => {
                         font-bold
                         px-48
                         text-center
-                        pt-4"
+                        pb-4
+                        "
           >
             Industrias 4.0
           </h1>

@@ -24,7 +24,7 @@ const Contacto = () => {
                     w-[35%]
                     bg-[#00AC00]
                     px-12
-                    pt-[160px]"
+                    pt-[200px]"
         >
           <h1
             className="text-[48px]
@@ -44,7 +44,7 @@ const Contacto = () => {
             className="flex
                       flex-row
                       items-center
-                      pt-8"
+                      "
           >
             <div
               className="text-[#025E73]

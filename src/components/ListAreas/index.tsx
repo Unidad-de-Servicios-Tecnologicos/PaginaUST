@@ -11,7 +11,7 @@ const Areas = () => {
                 items-center
                 w-full
                 bg-[#025E73]
-                gap-x-6" // Espacio entre los elementos
+                gap-x-2"
     >
       {areas.map((area, index) => (
         <div
@@ -34,7 +34,7 @@ const Areas = () => {
                           drop-shadow-3xl 
                           px-12
                           pt-[125px]
-                          w-[538px]
+                          w-[549px]
                           h-[538px]"
               >
                 <h1
@@ -60,9 +60,9 @@ const Areas = () => {
                 src={area.imgSrc}
                 alt={area.title}
                 className="bg-[#868686] 
-                        w-[538px] 
                         h-[538px]
-                        py-4
+                        w-[549px] 
+                        py-[80px]
                         px-12"
               />
             )}
