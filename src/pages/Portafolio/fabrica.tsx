@@ -609,6 +609,7 @@ const fabrica = () => {
         <div
           className="flex
                       flex-row
+                      
                       "
         >
           <div
@@ -644,8 +645,6 @@ const fabrica = () => {
                           flex-row
                           rounded-[35px]
                           bg-[#CBCBCB]
-                          pt-4
-                          pb-8
                           pl-4
                           pr-24
                           items-center
@@ -659,13 +658,15 @@ const fabrica = () => {
               <div
                 className="flex
                             flex-col
+                            ml-[35px]
                             "
               >
                 <div
                   className="flex
                               flex-row
                               justify-between
-                              items-center"
+                              
+                              mt-2"
                 >
                   <h1
                     className="text-[24px]
@@ -678,6 +679,7 @@ const fabrica = () => {
                   <div
                     className="flex
                             flex-col
+                            pl-[500px]
                             "
                   >
                     <h1
@@ -699,7 +701,9 @@ const fabrica = () => {
                 <div
                   className="flex
                               flex-row
-                              justify-between"
+                              justify-between
+                             
+                              mt-2"
                 >
                   <h1
                     className="text-[24px]
@@ -712,6 +716,7 @@ const fabrica = () => {
                   <div
                     className="flex
                             flex-col
+                            pl-[500px]
                             "
                   >
                     <h1

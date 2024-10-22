@@ -35,7 +35,8 @@ const PortafSecc: React.FC<AccordionProps> = ({
   // },[]);
 
   return (
-    <div className="relative">
+    <div className="relative
+                  ">
       {/* Título e ícono */}
       <div
         className="w-full 
