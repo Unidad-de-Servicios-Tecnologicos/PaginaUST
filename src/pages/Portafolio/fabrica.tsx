@@ -35,6 +35,7 @@ const fabrica = () => {
                     text-[#FFFFFF]
                     text-justify
                     pr-[700px]
+                    font-medium
                     "
         >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero id ipsa
@@ -69,6 +70,7 @@ const fabrica = () => {
                         text-[#000000]
                         text-justify
                         px-8
+                        font-medium
                         "
             >
               El desarrollo de prototipos rápidos de software es una metodología
@@ -86,7 +88,7 @@ const fabrica = () => {
                           rounded-[35px]
                           bg-[#CBCBCB]
                           pt-4
-                          pb-8
+                          pb-4
                           pl-4
                           pr-24
                           items-center
@@ -114,7 +116,8 @@ const fabrica = () => {
                   className="text-[22px]
                             text-[#000000]
                             text-justify
-                            pr-[120px]"
+                            pr-[110px]
+                            font-medium"
                 >
                   Creación rapida e interactiva de versiones preliminares de una
                   aplicación o sistema.
@@ -135,7 +138,8 @@ const fabrica = () => {
                 </h1>
                 <p
                   className="text-[22px]
-                            text-center"
+                            text-center
+                            font-medium"
                 >
                   Valor por hora
                 </p>
@@ -170,6 +174,7 @@ const fabrica = () => {
                         text-[#000000]
                         text-justify
                         px-8
+                        font-medium
                         "
             >
               Los diseños de prototipos rápidos en software se refieren a un
@@ -190,7 +195,7 @@ const fabrica = () => {
                           rounded-[35px]
                           bg-[#CBCBCB]
                           pt-4
-                          pb-8
+                          pb-4
                           pl-4
                           pr-24
                           items-center
@@ -210,7 +215,7 @@ const fabrica = () => {
                 <h1
                   className="text-[24px]
                             text-[#000000]
-                            font-bold"
+                            font-black"
                 >
                   Diseño de prototipos rápidos
                 </h1>
@@ -223,14 +228,15 @@ const fabrica = () => {
                 <h1
                   className="text-[32px]
                               text-[#000000]
-                              font-bold
+                              font-black
                               text-center"
                 >
                   $55.000
                 </h1>
                 <p
                   className="text-[22px]
-                            text-center"
+                            text-center
+                            font-medium"
                 >
                   Valor por hora
                 </p>
@@ -264,6 +270,7 @@ const fabrica = () => {
                         text-[#000000]
                         text-justify
                         px-8
+                        font-medium
                         "
             >
               Es un servicio que se enfoca en la revisión de código (Code
@@ -283,7 +290,7 @@ const fabrica = () => {
                           rounded-[35px]
                           bg-[#CBCBCB]
                           pt-4
-                          pb-8
+                          pb-4
                           pl-4
                           pr-24
                           items-center
@@ -303,7 +310,7 @@ const fabrica = () => {
                 <h1
                   className="text-[24px]
                             text-[#000000]
-                            font-bold"
+                            font-black"
                 >
                   Revisión de código y refactorización
                 </h1>
@@ -316,7 +323,7 @@ const fabrica = () => {
                 <h1
                   className="text-[32px]
                               text-[#000000]
-                              font-bold
+                              font-black
                               text-center"
                 >
                   $100.000
@@ -373,7 +380,7 @@ const fabrica = () => {
                           rounded-[35px]
                           bg-[#CBCBCB]
                           pt-4
-                          pb-8
+                          pb-4
                           pl-4
                           pr-24
                           items-center
@@ -387,7 +394,7 @@ const fabrica = () => {
               <div
                 className="flex
                             flex-col
-                            -ml-[205px]
+                            -ml-[200px]
                             "
               >
                 <h1
@@ -466,7 +473,7 @@ const fabrica = () => {
                           rounded-[35px]
                           bg-[#CBCBCB]
                           pt-4
-                          pb-8
+                          pb-4
                           pl-4
                           pr-24
                           items-center
@@ -480,7 +487,7 @@ const fabrica = () => {
               <div
                 className="flex
                             flex-col
-                            -ml-[160px]
+                            -ml-[240px]
                             "
               >
                 <h1
@@ -519,6 +526,7 @@ const fabrica = () => {
         <div
           className="flex
                       flex-row
+                      
                       "
         >
           <div
@@ -556,7 +564,7 @@ const fabrica = () => {
                           rounded-[35px]
                           bg-[#CBCBCB]
                           pt-4
-                          pb-8
+                          pb-4
                           pl-4
                           pr-24
                           items-center
@@ -630,6 +638,7 @@ const fabrica = () => {
                         text-[#000000]
                         text-justify
                         px-8
+                        font-medium
                         "
             >
               El mantenimiento y soporte del software se enfoca en garantizar el
@@ -646,98 +655,170 @@ const fabrica = () => {
                           rounded-[35px]
                           bg-[#CBCBCB]
                           pl-4
-                          pr-24
+                          pr-12
                           items-center
                           mt-12
                           "
             >
               <img
                 src="/src/assets/Group 96Icono_Servicios_asesoria.svg"
-                alt=""
+                alt="asesoria"
               />
               <div
                 className="flex
+                          flex-col
+                          pl-[40px]
+                        "
+              >
+                <h1
+                  className="text-[24px]
+                              text-[#000000]
+                              font-bold
+                              mb-2"
+                >
+                  Asesoría
+                </h1>
+                <h1
+                  className="text-[24px]
+                              text-[#000000]
+                              font-bold
+                              mt-4"
+                >
+                  Consultoría
+                </h1>
+              </div>
+              <div
+                className="flex
                             flex-col
-                            ml-[35px]
+                            pl-[435px]
+                            py-4
                             "
               >
                 <div
                   className="flex
-                              flex-row
-                              justify-between
-                              
-                              mt-2"
+                              flex-col
+                              "
                 >
                   <h1
-                    className="text-[24px]
-                            text-[#000000]
-                            font-bold"
-                  >
-                    Asesoría
-                  </h1>
-
-                  <div
-                    className="flex
-                            flex-col
-                            pl-[500px]
-                            "
-                  >
-                    <h1
-                      className="text-[32px]
+                    className="text-[32px]
                               text-[#000000]
                               font-bold
-                              text-center"
-                    >
-                      $60.000
-                    </h1>
-                    <p
-                      className="text-[22px]
-                            text-center"
-                    >
-                      Valor por hora
-                    </p>
-                  </div>
+                              text-center
+                              -mb-[12px]"
+                  >
+                    $40.000
+                  </h1>
+                  <p
+                    className="text-[22px]
+                            text-center
+                            mb-2"
+                  >
+                    Valor por hora
+                  </p>
                 </div>
                 <div
                   className="flex
-                              flex-row
-                              justify-between
-                             
-                              mt-2"
+                              flex-col"
                 >
                   <h1
-                    className="text-[24px]
-                            text-[#000000]
-                            font-bold"
-                  >
-                    Asesoría
-                  </h1>
-
-                  <div
-                    className="flex
-                            flex-col
-                            pl-[500px]
-                            "
-                  >
-                    <h1
-                      className="text-[32px]
+                    className="text-[32px]
                               text-[#000000]
                               font-bold
-                              text-center"
-                    >
-                      $60.000
-                    </h1>
-                    <p
-                      className="text-[22px]
-                            text-center"
-                    >
-                      Valor por hora
-                    </p>
-                  </div>
+                              text-center
+                              -mb-[12px]"
+                  >
+                    $200.000
+                  </h1>
+                  <p
+                    className="text-[22px]
+                            text-center
+                            font-medium"
+                  >
+                    Valor por hora
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </PortaSeccions>
+      <PortaSeccions title="DISEÑO DE PÁGINAS WEB PERSONALIZADAS">
+        <div
+          className="flex
+                      flex-row"
+        >
+          <div
+            className="flex
+                        flex-col
+                        w-[55%]
+                        pl-8
+                        py-8"
+          >
+            <div
+              className="flex
+                          flex-row
+                          rounded-[35px]
+                          bg-[#CBCBCB]
+                          pl-4
+                          pr-12
+                          py-4
+                          items-center
+                          "
+            >
+              <img
+                src="/src/assets/Group 97Icono_Servicios_Fabricadesoft.svg"
+                alt="asesoria"
+              />
+              <div
+                className="flex
+                          flex-col
+                          pl-[40px]
+                          mr-[153px]
+                        "
+              >
+                <h1
+                  className="text-[24px]
+                              text-[#000000]
+                              font-bold
+                              mb-2"
+                >
+                  Informativo
+                </h1>
+                <p
+                  className="text-[22px]
+                            text-[#000000]
+                            font-medium"
+                >
+                  Landing page - Páginas internas <br />
+                  (Max 3)
+                </p>
+              </div>
+              <div
+                className="flex
+                            flex-col
+                            py-4
+                            "
+              >
+                <h1
+                  className="text-[32px]
+                              text-[#000000]
+                              font-bold
+                             "
+                >
+                  $580.000
+                </h1>
+
+                <h1
+                  className="text-[32px]
+                              text-[#000000]
+                              font-bold"
+                >
+                  $1.200.000
+                </h1>
+              </div>
+            </div>
+          </div>
+          <img src="" alt="" />
         </div>
       </PortaSeccions>
       <Footer />

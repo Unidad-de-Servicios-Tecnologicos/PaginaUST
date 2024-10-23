@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 
 type AccordionProps = {
@@ -47,13 +47,14 @@ const PortafSecc: React.FC<AccordionProps> = ({
                     py-8
                     px-12
                     text-lg 
-                    font-semibold 
                     bg-[#025E73]"
                     ref={componentRef}
       >
         <span
           className="text-[32px]
-                        text-[#FFFFFF]"
+                    text-[#FFFFFF]
+                    font-black
+                    "
         >
           {title}
         </span>
